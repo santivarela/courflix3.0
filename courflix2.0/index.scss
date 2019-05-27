@@ -1,0 +1,255 @@
+// @font-face {
+//     font-family: 'helvetica-bold';
+//     src: '';
+//   } 
+
+body {
+    background-color: #141414;
+    margin: 0%;
+    position: relative;
+    overflow-x: hidden;
+} 
+.imagen-superior {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    .descripcion {
+         position: absolute;
+         bottom: 70px;
+         left: 4vw;
+         margin-bottom: 70px;
+         .titulo-descripcion{
+             color: white;
+             font-family:  Helvetica;
+             font-weight: 900;
+             font-size: 50px;
+             margin-bottom: -103px;
+         }
+         .contenedor-titulos{
+             color: transparentize($color: #000000, $amount: 0);
+             margin-bottom: -47px;
+            }
+         .titulo-descripcion-detalada{
+            color: white;
+            margin-bottom: -6%;
+            font-family:  Helvetica;
+            font-weight: 900;
+            font-size: 90px;
+         }
+         .titulo-descripcion-detalada-2 {
+            color: white;
+            margin-top: 0%;
+            font-family:  Helvetica;
+            font-weight: 900;
+            font-size: 90px;
+            
+         }
+        
+         .descripcion-botones{
+             margin-top: -14%;
+             margin-bottom: 20px;
+             align-content: center;
+             
+             .boton-reproducir{
+                 color: white;
+                 font-family:  Helvetica;
+                 font-weight: 900;
+                 font-size: 16px;
+                 padding: 10px 30px ;
+                 background-color: #141414;
+                 border-radius: 8px;
+                  .fa-play{
+                        color: white;
+                        
+                  }                
+             }
+             .boton-milista {
+                color: white;
+                font-family:  Helvetica;
+                font-weight: 900;
+                font-size: 16px;
+                 padding: 10px 30px ;
+                 margin-bottom: 12px;
+                 margin-top: 12px;
+                 background-color: #141414;
+                 border-radius: 8px;
+                .fa-plus {
+                    color: white;
+                }
+             }
+         }
+         .ver-temporada{
+            color: white;
+            font-family:  Helvetica;
+            font-size: 20px;
+            margin-top: 12px;
+            margin-bottom: 2%;
+         }
+         .descripcion-detallada-pelicula {
+            color: white;
+            font-family:  Helvetica;
+         }
+
+    }
+    .img-1 { 
+        width: 100%;
+    height: 50%;
+    }
+}
+.barra-superior {
+    overflow-x: hidden;
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: inline-flex;
+    margin: none;
+
+    .courflix{
+        margin-right: 4px;
+        margin-left: 2px;
+
+        .courflix-1{
+            height: 30px;
+            margin-right: 45px;
+            margin-left: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .style-barra {
+        margin-right: 18px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        font-size: 14px;
+        font-family: helvetica;
+        
+    }
+}
+
+.barra-superior-2 {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 50px;
+    margin-right: 0px;
+
+    .style-barra-2 {
+        margin-right: 18px;
+        margin-top: 17px;
+        margin-bottom: 17px;
+        font-size: 14px;
+        font-family: helvetica;
+        
+    }
+
+}
+.titulo-barra-series {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    vertical-align: bottom;
+    font-size: 16px;
+    color: white;
+    margin-left: 1%; 
+}
+.barra-series {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 4px;
+   
+    .caja-img-series {
+        display: inline-block;
+        margin: none;
+        width: 185px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-right: 4px;
+        
+        
+        .img-series {
+            width: 100%;
+            margin-right: 0px;
+            
+        }
+    }
+}
+.titulo-barra-tendencias {
+    font-family:  sans-serif;
+    vertical-align: bottom;
+    font-size: 16px;
+    color: white;
+    margin-left: 1%;
+    
+}
+.barra-tendencias {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 4px;
+    .caja-img-tendencias {
+        display: inline-block;
+        margin: none;
+        width: 185px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-right: 4px;
+        
+        
+        .img-tendencias {
+            width: 100%;
+            margin-right: 0px;
+        }
+    }
+}
+.titulo-barra-continuarviendo{
+    font-family:  sans-serif;
+    vertical-align: bottom;
+    font-size: 16px;
+    color: white;
+    margin-left: 1%;
+}
+.barra-continuarviendo {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    
+    .caja-img-continuarviendo {
+        display: inline-block;
+        margin: none;
+        width: 185px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-right: 4px;
+        
+        .img-continuarviendo {
+            width: 100%;
+            margin-right: 0px;
+        }
+    }
+}
+a { 
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+    outline: none;
+    color: none;
+}
+.style-a {
+    color: white;
+    margin-right: 18px;
+}
+.fas {
+    color: white;
+}
+   
