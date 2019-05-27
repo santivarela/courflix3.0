@@ -138,12 +138,20 @@ body {
     }
 
 }
+.caja-total-popular{
+    position: absolute;
+    top: 200px;
+}
+
 .titulo-barra-popular {
     font-family:  sans-serif;
     vertical-align: bottom;
     font-size: 16px;
     color: white;
     margin-left: 1%; 
+    position: absolute;
+    top: 200px;
+   
 }
 .barra-popular {
     width: 100%;
