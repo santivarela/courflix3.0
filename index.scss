@@ -173,7 +173,8 @@ body {
     margin-right: 4px;
     margin-left: 60px;
     overflow: hidden;
-   
+   display: flex;
+   flex-wrap: nowrap;
     .caja-img-series {
         display: inline-block;
         margin: none;

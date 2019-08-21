@@ -156,6 +156,8 @@ body {
   margin-right: 4px;
   margin-left: 60px;
   overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .barra-series .caja-img-series {
   display: inline-block;
